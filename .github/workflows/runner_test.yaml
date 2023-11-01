@@ -1,0 +1,11 @@
+name: Runner test
+
+on:
+  pull_request:
+
+jobs:
+  hello-world-test:
+    runs-on: [self-hosted, github-runner]
+    steps:
+        - run: echo "hello world"
+
