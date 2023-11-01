@@ -1,7 +1,7 @@
 name: Runner test
 
 on:
-  pull_request:
+  push:
 
 jobs:
   hello-world-test:
